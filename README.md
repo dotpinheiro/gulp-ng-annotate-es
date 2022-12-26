@@ -5,14 +5,14 @@
 ## Install
 
 ```bash
-$ npm install --save-dev gulp-ng-annotate
+$ npm install --save-dev gulp-ng-annotate-es
 ```
 
 ## Usage
 
 ```js
 var gulp = require('gulp');
-var ngAnnotate = require('gulp-ng-annotate');
+var ngAnnotate = require('gulp-ng-annotate-es');
 
 gulp.task('default', function () {
 	return gulp.src('src/app.js')
